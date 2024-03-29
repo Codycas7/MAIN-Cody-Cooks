@@ -1,5 +1,11 @@
 {
   "projects": {
     "default": "cody-cooks"
+  },
+  "targets": {},
+  "etags": {
+    "cody-cooks": {
+      "extensionInstances": {}
+    }
   }
 }
