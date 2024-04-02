@@ -26,20 +26,17 @@
             <div class="lineDiv">
                 <hr class="line"></hr>
             </div>
-            <div class="inputDiv">
-                <input id="uName" type="text" placeholder="Username" class="input"/>
-                <input id="createEmail" type="text" placeholder="Email" class="input"/>
-                <input id="createPassword" type="text" placeholder="Password" class="input"/>
-            </div>
-            <div class="createAcctErrorDiv">
-                <div class="spacer" style="margin-top:50px"></div>
-                <p class="createAcctError" id="createAcctPasswordError">Error! Password must be 8+ characters</p>
-                <p class="createAcctError" id="createAcctBlankError">Error! All boxes must be filled out</p>
-            </div>
-            <div class="logInDiv">
-                <div class="spacer" style="margin-top:50px"></div>
-                <button type="button" class="button" onclick="createAccount()">Create</button> 
-            </div>
+            <form id="signupForm">
+                <div class="inputDiv">
+                    <input id="uName" type="text" placeholder="Username" class="input"/>
+                    <input id="createEmail" type="email" placeholder="Email" class="input"/>
+                    <input id="createPassword" type="password" placeholder="Password" class="input"/>
+                </div>
+                <div class="logInDiv">
+                    <div class="spacer" style="margin-top:50px"></div>
+                    <button class="button">Create</button> 
+                </div>
+            </form>
             <div class="footerLogIn">
                 <hr style="margin-top: 75px;"></hr>
                 <p class="footerText">©2024 Cody Casanave</p>
